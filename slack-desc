@@ -1,0 +1,11 @@
+avahi: Avahi - Local network service discovery
+avahi:
+avahi: Avahi is an implementation of the Multicast DNS and DNS Service
+avahi: Discovery (mDNS/DNS-SD) specifications for Zeroconf computing.
+avahi: This means that you can plug your machine into a network and instantly
+avahi: be able to view other people whom you can chat with, find printers to
+avahi: print to, or find files being shared. This kind of technology is
+avahi: already found in MacOS X (also known as Rendezvous, Bonjour, and
+avahi: Zeroconf). It is based on the discontinued flexmdns project.
+avahi:
+avahi: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
