@@ -1,9 +1,9 @@
-atk >= 1.10.3
+cairo >= 1.4.10
 dbus >= 1.0.2
-cairo >= 1.0.4
+expat >= 2.0.1
 gdbm >= 1.8.3
-glib2 >= 2.10.3
-gtk+2 >= 2.8.20
+glib2 >= 2.12.12
+gtk+2 >= 2.10.13
 libdaemon >= 0.11
-libglade >= 2.5.1
-pango >= 1.12.4
+libglade >= 2.6.1
+qt >= 3.3.8
