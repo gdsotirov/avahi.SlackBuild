@@ -1,0 +1,3 @@
+dbus-glib >= 0.74
+dbus-python >= 0.82.2
+python >= 2.5
