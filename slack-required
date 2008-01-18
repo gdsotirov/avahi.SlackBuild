@@ -1,4 +1,4 @@
-cairo >= 1.4.10
+cairo >= 1.4.12
 dbus >= 1.0.2
 expat >= 2.0.1
 gdbm >= 1.8.3
