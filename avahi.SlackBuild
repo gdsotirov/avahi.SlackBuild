@@ -6,7 +6,7 @@
 . ../slack-package.conf
 
 NAME=avahi
-VERSION=0.6.23
+VERSION=0.6.24
 ARCH=${ARCH:-i486}
 BUILD=1
 
