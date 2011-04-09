@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: avahi.SlackBuild,v 1.9 2011/03/13 00:10:16 gsotirov Exp $
+# $Id: avahi.SlackBuild,v 1.10 2011/04/09 06:13:43 gsotirov Exp $
 #
 
 . ../slack-package.conf
 
 NAME=avahi
-VERSION=0.6.29
+VERSION=0.6.30
 ARCH=${ARCH:-i486}
 BUILD=${BUILD:-1}
 
