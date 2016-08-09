@@ -1,8 +1,8 @@
-dbus >= 1.4.1
+dbus >= 1.4.20
 expat >= 2.0.1
-gcc >= 4.5.2
-glibc-solibs >= 2.13
+gcc >= 4.7.1
+glibc-solibs >= 2.15
 libdaemon >= 0.14
-libcap >= 2.20
-libxml2 >= 2.7.8
+libcap >= 2.22
+libxml2 >= 2.8.0
 shadow >= 4.1.4.3
