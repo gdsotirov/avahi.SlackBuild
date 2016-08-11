@@ -19,14 +19,14 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: avahi.SlackBuild,v 1.15 2016/08/09 21:18:28 gsotirov Exp $
+# $Id: avahi.SlackBuild,v 1.16 2016/08/11 10:14:55 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=avahi
-VERSION=0.6.31
-ARCH=${ARCH:-i486}
+VERSION=0.6.32
+ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
 CWD=${CWD:-`pwd`}
@@ -51,7 +51,7 @@ mkdir -p $PKG
 
 # Extract the source
 cd $TMP
-tar -xvf $CWD/$NAME-$VERSION.tar.gz || exit 1
+tar -xvf $CWD/$NAME-$VERSION.tar.?z* || exit 3
 cd $SRC
 fix_source
 
@@ -70,11 +70,11 @@ CXXFLAGS="$SLKCFLAGS" \
             --enable-static=no \
             --enable-core-docs \
             --disable-qt3 \
-            --disable-gtk || exit 2
+            --disable-gtk || exit 4
 
 # Build & install
-make V=1 -j || exit 3
-make DESTDIR=$PKG install || exit 4
+make V=1 -j || exit 5
+make DESTDIR=$PKG install || exit 6
 
 # Prepare the package
 bin_perms $PKG
