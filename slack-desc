@@ -8,4 +8,4 @@ avahi: print to, or find files being shared. This kind of technology is
 avahi: already found in MacOS X (also known as Rendezvous, Bonjour, and
 avahi: Zeroconf). It is based on the discontinued flexmdns project.
 avahi:
-avahi: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
+avahi: Packaged by Georgi D. Sotirov <gdsotirov@gmail.com>
